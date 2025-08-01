@@ -365,3 +365,6 @@ logs/
 # Temporary files
 *.tmp
 *.temp
+
+# Backup folder
+backup/
