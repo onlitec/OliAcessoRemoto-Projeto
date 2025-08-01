@@ -1,0 +1,18 @@
+[Unit]
+Description=OliAcesso Remoto Server
+After=network.target
+
+[Service]
+Type=simple
+User=alfreire
+WorkingDirectory=/opt/oliacesso-server
+ExecStart=/usr/bin/dotnet /opt/oliacesso-server/OliAcessoRemoto.Servidor.dll
+Restart=always
+RestartSec=10
+KillSignal=SIGINT
+SyslogIdentifier=oliacesso-server
+Environment=ASPNETCORE_ENVIRONMENT=Production
+Environment=ASPNETCORE_URLS=http://+:7070
+
+[Install]
+WantedBy=multi-user.target

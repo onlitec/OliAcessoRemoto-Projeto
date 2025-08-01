@@ -1,0 +1,12 @@
+{
+  "RequirePassword": false,
+  "AccessPassword": "",
+  "AutoAccept": false,
+  "StartWithWindows": false,
+  "MinimizeToTray": false,
+  "ShowNotifications": true,
+  "ServerAddress": "http://172.20.120.28:7071",
+  "ServerPort": "7071",
+  "Quality": "System.Windows.Controls.ComboBoxItem: M\u00E9dia (balanceada)",
+  "AdaptiveQuality": true
+}
